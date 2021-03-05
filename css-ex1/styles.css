@@ -1,0 +1,44 @@
+.header{
+    background-color: lightgray;
+    height:10vh;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#foot{
+    background-color: orange;
+    height: 5vh;
+    bottom: 0;
+}
+
+
+.main{
+
+
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+#box-1{
+    flex: 1;
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+}
+#box-2{
+    flex:1;
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
+#box-3{
+    flex:1;
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+}
