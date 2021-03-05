@@ -21,5 +21,5 @@ for(var i = 0; i < Array1.length; i++){
 }
 
 console.log(Obj);
-console.log(Object.keys(Obj).length)
+
 
