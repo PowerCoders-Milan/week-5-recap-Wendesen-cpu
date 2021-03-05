@@ -1,0 +1,25 @@
+.FatherBox{
+    display: grid;
+    grid-template-rows: auto auto;
+    min-height: 80vh;
+}
+
+#box1{
+    
+    border:1px solid black;
+
+}
+
+#box2{
+    
+    border:1px solid black;
+    
+}
+
+@media screen and (min-width: 600px) {
+    .FatherBox{
+        display: grid;
+        grid-template-columns: auto auto;
+        min-height: 80vh;
+    }
+  }
