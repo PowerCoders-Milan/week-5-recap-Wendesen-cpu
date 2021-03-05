@@ -15,42 +15,10 @@ Array1.forEach(item =>{
     }
 })
 
-//     Array1.forEach(item => {
-//     var i = Array1.indexOf(item);
-//     var a = new Map([[item,Array2[i]]]);
-// })
-//  for(var i =0; i <= Array1.length; i++){
-//     var entries = new Map([Array1[i],Array2[i]]);
-//  }
-//const obj = Object.fromEntries(Array1);
-console.log(Array1);
+var Obj = new Object;
+for(var i = 0; i < Array1.length; i++){
+    Obj[Array1[i]] = Array2[i];
+}
 
+console.log(Obj);
 
-  
- // const obj = Object.fromEntries(entries);
-  
-  //console.log(entries);
-
-   
-
-
-        
-
-
-// var Score = {name: Array1, Score: Array2};
-
-
-
-
-
-
-//   var len = a.length;
-//   for(var i=0; i<=len-1; i= i+2)
-//   {
-//       var Ob = {name:a[i], score:a[(i/2)+1]}
-//   }
-
-//   return Ob;
-// }
-
-// console.log(createObject(Array1));
